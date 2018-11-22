@@ -59,31 +59,32 @@ public class AddressList {
         return userservice.insertUser(user);
     }
 
-    @RequestMapping(value = "/getPageList")
-    @ResponseBody
-    public List<User> getPageList(PageSet pageSet){
-        return userservice.getPageList(pageSet);
-    }
+//    @RequestMapping(value = "/getPageListDesc")
+//    @ResponseBody
+//    public List<User> getPageListDesc(PageSet pageSet){
+//        return userservice.getPageList(pageSet);
+//    }
 
-    @RequestMapping(value = "/getPageListString")
+    @RequestMapping(value = "/getPageListDesc")
     @ResponseBody
-    public String getPageListString(PageSet pageSet){
+    public String getPageListDesc(PageSet pageSet){
         int total = countAll();
         return userservice.getPageList(pageSet) + "<br>总数:" + total;
     }
 
-    @RequestMapping(value = "/getPageListAscString")
+    @RequestMapping(value = "/getPageListAsc")
     @ResponseBody
-    public String getPageListAscString(PageSet pageSet){
+    public String getPageListAsc(PageSet pageSet){
         int total = countAll();
         return userservice.getPageListAsc(pageSet) + "<br>总数：" + total;
     }
 
-    @RequestMapping(value = "/getPageListAsc")
-    @ResponseBody
-    public List<User> getPageListAsc(PageSet pageSet){
-        return userservice.getPageListAsc(pageSet);
-    }
+//    @RequestMapping(value = "/getPageListAsc")
+//    @ResponseBody
+//    public List<User> getPageListAsc(PageSet pageSet){
+//        return userservice.getPageListAsc(pageSet);
+//    }
+
     @RequestMapping(value = "/countAll", method = RequestMethod.GET)
     public int countAll(){
         return userservice.countAll();
