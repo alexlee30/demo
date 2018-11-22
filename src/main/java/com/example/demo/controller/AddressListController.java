@@ -8,6 +8,7 @@ import com.example.demo.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.slf4j.Logger;
@@ -32,10 +33,10 @@ public class AddressListController {
         return userservice.ListUser();
     }
 
-    @ApiOperation(value = "根据id删除用户信息", notes = "删除数据库中某个的用户信息")
-    @ApiImplicitParam(name = "id", value = "学生ID", paramType = "path", required = true, dataType = "Integer")
-    @RequestMapping(value = "/delete", method = RequestMethod.GET)
-    public String delete(@PathVariable int id) {
+    @ApiOperation(value="删除用户", notes="删除用户")
+    @ApiParam(name = "id", value = "用户id", required = true)
+    @PostMapping(value = "/delete", produces = {"text/plain;charset=UTF-8"})
+    public String delete(@RequestParam("id")  int id) {
         logger.info("删除用户，用户id{}", id);
         int result = userservice.delete(id);
         if (result >= 1) {
