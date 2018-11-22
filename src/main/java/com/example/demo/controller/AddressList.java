@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/Demo", method = { RequestMethod.GET, RequestMethod.POST })
-public class CRUD {
+public class AddressList {
 
     @Autowired
     private UserService userservice;
