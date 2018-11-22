@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping(value = "/Demo", method = { RequestMethod.GET, RequestMethod.POST })
+@RequestMapping(value = "/AddressList", method = { RequestMethod.GET, RequestMethod.POST })
 public class AddressList {
 
     @Autowired
