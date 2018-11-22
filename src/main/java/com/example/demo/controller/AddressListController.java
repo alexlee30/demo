@@ -9,7 +9,6 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -49,8 +48,8 @@ public class AddressListController {
 
     @ApiOperation(value="修改用户", notes="修改用户")
     @ApiImplicitParam(name = "user", value = "用户数据模型", required = true, dataType = "User")
-    @RequestMapping(value = "/update", method = RequestMethod.POST)
-    public String update(@RequestBody @ModelAttribute User user) {
+    @PostMapping(value = "/update",  produces = {"text/plain;charset=UTF-8"})
+    public String update(@RequestBody  User user) {
         logger.info("修改用户{}",user.getName());
         int result = userservice.Update(user);
         if (result >= 1) {
@@ -63,10 +62,15 @@ public class AddressListController {
 
     @ApiOperation(value="新增用户", notes="新增用户")
     @ApiImplicitParam(name = "user", value = "用户数据模型", required = true, dataType = "User")
-    @RequestMapping(value = "/insert", method = RequestMethod.POST)
-    public User insert(@RequestBody @ModelAttribute User user) {
+    @PostMapping(value = "/insert", produces = {"text/plain;charset=UTF-8"})
+    public String insert(@RequestBody User user) {
         logger.info("新增用户{}",user.getName());
-        return userservice.insertUser(user);
+        int result = userservice.insertUser(user);
+        if (result >= 1) {
+            return "修改成功";
+        } else {
+            return "修改失败";
+        }
     }
 
     @ApiOperation(value="获取降序分页数据", notes="获取降序分页数据")

@@ -366,3 +366,389 @@
 2018-11-22 16:24:45.247 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2018-11-22 16:24:45.248 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2018-11-22 16:24:45.254 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2018-11-22 16:31:43.907 [http-nio-8080-exec-4] INFO  com.example.demo.controller.AddressListController - 获取所有用户
+2018-11-22 16:33:16.112 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on liyuguo with PID 43756 (H:\JAVA\demo1\target\classes started by alex in H:\JAVA\demo1)
+2018-11-22 16:33:16.115 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-11-22 16:33:17.529 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-22 16:33:17.568 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2018-11-22 16:33:17.843 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9aa4a101] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-22 16:33:18.160 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-11-22 16:33:18.170 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:33:18.175 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-22 16:33:18.176 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-22 16:33:18.182 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\app\client\alex\product\12.2.0\client_2\bin;F:\app\client\alex\product\12.2.0\client_1\bin;F:\app\alex\product\12.2.0\client_1;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\alex\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Microsoft\Web Platform Installer\;H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;H:\NewTools\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\Users\alex\.dnx\bin;C:\Users\alex\AppData\Local\Programs\Fiddler;.]
+2018-11-22 16:33:18.319 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-22 16:33:18.319 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1727 ms
+2018-11-22 16:33:18.348 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-22 16:33:18.352 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-22 16:33:18.352 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-22 16:33:18.352 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-22 16:33:18.352 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-22 16:33:18.478 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-11-22 16:33:18.574 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-22 16:33:18.616 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-22 16:33:18.673 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-11-22 16:33:18.674 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-11-22 16:33:18.796 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-11-22 16:33:18.895 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-11-22 16:33:19.033 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-22 16:33:19.415 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-11-22 16:33:19.634 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-22 16:33:19.821 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-22 16:33:19.833 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-22 16:33:19.845 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-22 16:33:19.948 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:33:19.958 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:33:19.961 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:33:19.967 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:33:19.970 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:33:19.985 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:33:19.995 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-22 16:33:20.010 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-22 16:33:20.013 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.413 seconds (JVM running for 5.338)
+2018-11-22 16:33:22.283 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-22 16:33:22.283 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-22 16:33:22.291 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2018-11-22 16:36:18.692 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on liyuguo with PID 43208 (H:\JAVA\demo1\target\classes started by alex in H:\JAVA\demo1)
+2018-11-22 16:36:18.695 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-11-22 16:36:19.878 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-22 16:36:19.896 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2018-11-22 16:36:20.178 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2994257e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-22 16:36:20.506 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-11-22 16:36:20.518 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:36:20.522 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-22 16:36:20.523 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-22 16:36:20.529 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\app\client\alex\product\12.2.0\client_2\bin;F:\app\client\alex\product\12.2.0\client_1\bin;F:\app\alex\product\12.2.0\client_1;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\alex\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Microsoft\Web Platform Installer\;H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;H:\NewTools\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\Users\alex\.dnx\bin;C:\Users\alex\AppData\Local\Programs\Fiddler;.]
+2018-11-22 16:36:20.688 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-22 16:36:20.688 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1912 ms
+2018-11-22 16:36:20.716 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-22 16:36:20.720 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-22 16:36:20.720 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-22 16:36:20.720 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-22 16:36:20.720 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-22 16:36:20.832 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-11-22 16:36:20.938 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-22 16:36:20.983 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-22 16:36:21.027 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-11-22 16:36:21.028 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-11-22 16:36:21.156 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-11-22 16:36:21.253 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-11-22 16:36:21.395 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-22 16:36:21.789 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-11-22 16:36:22.005 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-22 16:36:22.198 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-22 16:36:22.212 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-22 16:36:22.220 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-22 16:36:22.321 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:36:22.336 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:36:22.340 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:36:22.345 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:36:22.348 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:36:22.363 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:36:22.378 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-22 16:36:22.399 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-22 16:36:22.403 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.414 seconds (JVM running for 5.384)
+2018-11-22 16:36:29.238 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-22 16:36:29.238 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-22 16:36:29.247 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2018-11-22 16:40:19.620 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on liyuguo with PID 39640 (H:\JAVA\demo1\target\classes started by alex in H:\JAVA\demo1)
+2018-11-22 16:40:19.623 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-11-22 16:40:20.967 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-22 16:40:20.986 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2018-11-22 16:40:21.277 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee650ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-22 16:40:21.597 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-11-22 16:40:21.609 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:40:21.614 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-22 16:40:21.615 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-22 16:40:21.621 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\app\client\alex\product\12.2.0\client_2\bin;F:\app\client\alex\product\12.2.0\client_1\bin;F:\app\alex\product\12.2.0\client_1;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\alex\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Microsoft\Web Platform Installer\;H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;H:\NewTools\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\Users\alex\.dnx\bin;C:\Users\alex\AppData\Local\Programs\Fiddler;.]
+2018-11-22 16:40:21.756 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-22 16:40:21.757 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1997 ms
+2018-11-22 16:40:21.785 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-22 16:40:21.790 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-22 16:40:21.790 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-22 16:40:21.790 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-22 16:40:21.790 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-22 16:40:21.917 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-11-22 16:40:22.013 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-22 16:40:22.056 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-22 16:40:22.102 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-11-22 16:40:22.103 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-11-22 16:40:22.233 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-11-22 16:40:22.334 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-11-22 16:40:22.485 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-22 16:40:22.862 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-11-22 16:40:23.089 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-22 16:40:23.262 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-22 16:40:23.275 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-22 16:40:23.283 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-22 16:40:23.397 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:40:23.408 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:40:23.411 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:40:23.416 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:40:23.419 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:40:23.442 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:40:23.453 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-22 16:40:23.469 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-22 16:40:23.473 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.358 seconds (JVM running for 5.267)
+2018-11-22 16:40:27.008 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-22 16:40:27.009 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-22 16:40:27.018 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2018-11-22 16:46:27.750 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on liyuguo with PID 35756 (H:\JAVA\demo1\target\classes started by alex in H:\JAVA\demo1)
+2018-11-22 16:46:27.754 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-11-22 16:46:28.912 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-22 16:46:28.929 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2018-11-22 16:46:29.207 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c8dfd65] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-22 16:46:29.544 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-11-22 16:46:29.558 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:46:29.563 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-22 16:46:29.564 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-22 16:46:29.569 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\app\client\alex\product\12.2.0\client_2\bin;F:\app\client\alex\product\12.2.0\client_1\bin;F:\app\alex\product\12.2.0\client_1;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\alex\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Microsoft\Web Platform Installer\;H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;H:\NewTools\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\Users\alex\.dnx\bin;C:\Users\alex\AppData\Local\Programs\Fiddler;.]
+2018-11-22 16:46:29.709 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-22 16:46:29.710 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1831 ms
+2018-11-22 16:46:29.739 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-22 16:46:29.743 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-22 16:46:29.743 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-22 16:46:29.743 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-22 16:46:29.744 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-22 16:46:29.857 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-11-22 16:46:29.955 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-22 16:46:30.001 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-22 16:46:30.051 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-11-22 16:46:30.052 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-11-22 16:46:30.173 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-11-22 16:46:30.273 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-11-22 16:46:30.420 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-22 16:46:30.798 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-11-22 16:46:31.018 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-22 16:46:31.194 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-22 16:46:31.208 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-22 16:46:31.219 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-22 16:46:31.329 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:46:31.340 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:46:31.343 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:46:31.348 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:46:31.350 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:46:31.365 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:46:31.376 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-22 16:46:31.391 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-22 16:46:31.395 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.154 seconds (JVM running for 5.093)
+2018-11-22 16:46:35.623 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-22 16:46:35.623 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-22 16:46:35.630 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2018-11-22 16:47:36.919 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on liyuguo with PID 43876 (H:\JAVA\demo1\target\classes started by alex in H:\JAVA\demo1)
+2018-11-22 16:47:36.922 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-11-22 16:47:37.825 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-22 16:47:37.843 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2018-11-22 16:47:38.140 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$22557f45] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-22 16:47:38.464 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-11-22 16:47:38.474 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:47:38.479 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-22 16:47:38.480 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-22 16:47:38.486 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\app\client\alex\product\12.2.0\client_2\bin;F:\app\client\alex\product\12.2.0\client_1\bin;F:\app\alex\product\12.2.0\client_1;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\alex\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Microsoft\Web Platform Installer\;H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;H:\NewTools\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\Users\alex\.dnx\bin;C:\Users\alex\AppData\Local\Programs\Fiddler;.]
+2018-11-22 16:47:38.630 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-22 16:47:38.630 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1654 ms
+2018-11-22 16:47:38.658 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-22 16:47:38.662 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-22 16:47:38.663 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-22 16:47:38.663 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-22 16:47:38.663 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-22 16:47:38.787 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-11-22 16:47:38.883 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-22 16:47:38.925 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-22 16:47:38.973 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-11-22 16:47:38.974 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-11-22 16:47:39.111 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-11-22 16:47:39.210 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-11-22 16:47:39.358 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-22 16:47:39.767 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-11-22 16:47:39.995 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-22 16:47:40.179 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-22 16:47:40.191 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-22 16:47:40.200 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-22 16:47:40.309 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:47:40.321 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:47:40.323 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:47:40.328 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:47:40.331 [main] WARN  s.d.s.r.operation.OperationImplicitParameterReader - Coercing to be of type string. This may not even be a scalar type in actuality
+2018-11-22 16:47:40.347 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:47:40.360 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-22 16:47:40.376 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-22 16:47:40.380 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.424 seconds (JVM running for 5.366)
+2018-11-22 16:47:44.749 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-22 16:47:44.750 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-22 16:47:44.757 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2018-11-22 16:53:07.138 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on liyuguo with PID 37552 (H:\JAVA\demo1\target\classes started by alex in H:\JAVA\demo1)
+2018-11-22 16:53:07.141 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-11-22 16:53:08.369 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-22 16:53:08.389 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2018-11-22 16:53:08.676 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f67972b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-22 16:53:09.021 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-11-22 16:53:09.033 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:53:09.037 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-22 16:53:09.038 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-22 16:53:09.045 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\app\client\alex\product\12.2.0\client_2\bin;F:\app\client\alex\product\12.2.0\client_1\bin;F:\app\alex\product\12.2.0\client_1;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\alex\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Microsoft\Web Platform Installer\;H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;H:\NewTools\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\Users\alex\.dnx\bin;C:\Users\alex\AppData\Local\Programs\Fiddler;.]
+2018-11-22 16:53:09.200 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-22 16:53:09.201 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1779 ms
+2018-11-22 16:53:09.230 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-22 16:53:09.234 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-22 16:53:09.234 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-22 16:53:09.235 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-22 16:53:09.235 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-22 16:53:09.347 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-11-22 16:53:09.455 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-22 16:53:09.498 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-22 16:53:09.546 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-11-22 16:53:09.547 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-11-22 16:53:09.681 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-11-22 16:53:09.778 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-11-22 16:53:09.926 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-22 16:53:10.301 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-11-22 16:53:10.538 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-22 16:53:10.722 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-22 16:53:10.735 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-22 16:53:10.747 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-22 16:53:10.910 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:53:10.922 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-22 16:53:10.937 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-22 16:53:10.940 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.424 seconds (JVM running for 5.36)
+2018-11-22 16:53:20.086 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-22 16:53:20.087 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-22 16:53:20.094 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2018-11-22 16:56:18.825 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on liyuguo with PID 43352 (H:\JAVA\demo1\target\classes started by alex in H:\JAVA\demo1)
+2018-11-22 16:56:18.828 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-11-22 16:56:19.912 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-22 16:56:19.929 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2018-11-22 16:56:20.219 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d1460e9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-22 16:56:20.569 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-11-22 16:56:20.582 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:56:20.586 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-22 16:56:20.586 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-22 16:56:20.593 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\app\client\alex\product\12.2.0\client_2\bin;F:\app\client\alex\product\12.2.0\client_1\bin;F:\app\alex\product\12.2.0\client_1;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\alex\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Microsoft\Web Platform Installer\;H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;H:\NewTools\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\Users\alex\.dnx\bin;C:\Users\alex\AppData\Local\Programs\Fiddler;.]
+2018-11-22 16:56:20.733 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-22 16:56:20.734 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1828 ms
+2018-11-22 16:56:20.761 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-22 16:56:20.766 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-22 16:56:20.766 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-22 16:56:20.766 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-22 16:56:20.766 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-22 16:56:20.879 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-11-22 16:56:20.981 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-22 16:56:21.022 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-22 16:56:21.068 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-11-22 16:56:21.069 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-11-22 16:56:21.211 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-11-22 16:56:21.305 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-11-22 16:56:21.451 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-22 16:56:21.841 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-11-22 16:56:22.059 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-22 16:56:22.243 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-22 16:56:22.256 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-22 16:56:22.266 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-22 16:56:22.430 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:56:22.441 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-22 16:56:22.456 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-22 16:56:22.460 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.321 seconds (JVM running for 5.369)
+2018-11-22 16:56:24.996 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-22 16:56:24.997 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-22 16:56:25.005 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2018-11-22 16:56:40.125 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.demo.controller.AddressListController.getPageListDesc(com.example.demo.entity.PageSet)]
+2018-11-22 16:56:40.130 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2018-11-22 16:57:04.473 [http-nio-8080-exec-4] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.demo.controller.AddressListController.getPageListDesc(com.example.demo.entity.PageSet)]
+2018-11-22 16:57:04.475 [http-nio-8080-exec-4] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2018-11-22 16:57:20.233 [http-nio-8080-exec-10] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.demo.controller.AddressListController.getPageListAsc(com.example.demo.entity.PageSet)]
+2018-11-22 16:57:35.182 [http-nio-8080-exec-8] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.demo.controller.AddressListController.getPageListAsc(com.example.demo.entity.PageSet)]
+2018-11-22 16:57:43.736 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on liyuguo with PID 43564 (H:\JAVA\demo1\target\classes started by alex in H:\JAVA\demo1)
+2018-11-22 16:57:43.740 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-11-22 16:57:44.985 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-22 16:57:45.003 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2018-11-22 16:57:45.335 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d835f4bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-22 16:57:45.663 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-11-22 16:57:45.680 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:57:45.684 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-22 16:57:45.684 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-22 16:57:45.690 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\app\client\alex\product\12.2.0\client_2\bin;F:\app\client\alex\product\12.2.0\client_1\bin;F:\app\alex\product\12.2.0\client_1;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\alex\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Microsoft\Web Platform Installer\;H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;H:\NewTools\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\Users\alex\.dnx\bin;C:\Users\alex\AppData\Local\Programs\Fiddler;.]
+2018-11-22 16:57:45.829 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-22 16:57:45.830 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2023 ms
+2018-11-22 16:57:45.863 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-22 16:57:45.867 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-22 16:57:45.867 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-22 16:57:45.867 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-22 16:57:45.867 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-22 16:57:45.987 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-11-22 16:57:46.081 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-22 16:57:46.125 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-22 16:57:46.185 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-11-22 16:57:46.187 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-11-22 16:57:46.301 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-11-22 16:57:46.403 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-11-22 16:57:46.548 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-22 16:57:46.919 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-11-22 16:57:47.137 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-22 16:57:47.317 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-22 16:57:47.331 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-22 16:57:47.342 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-22 16:57:47.513 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:57:47.529 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-22 16:57:47.548 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-22 16:57:47.552 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.392 seconds (JVM running for 5.384)
+2018-11-22 16:57:49.238 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-22 16:57:49.239 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-22 16:57:49.248 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2018-11-22 16:57:49.327 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.demo.controller.AddressListController.getPageListAsc(com.example.demo.entity.PageSet)]
+2018-11-22 16:57:50.318 [http-nio-8080-exec-2] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.demo.controller.AddressListController.getPageListAsc(com.example.demo.entity.PageSet)]
+2018-11-22 16:59:12.494 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on liyuguo with PID 43076 (H:\JAVA\demo1\target\classes started by alex in H:\JAVA\demo1)
+2018-11-22 16:59:12.497 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-11-22 16:59:13.567 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-11-22 16:59:13.584 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2018-11-22 16:59:13.863 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c31d37de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-22 16:59:14.184 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-11-22 16:59:14.196 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:59:14.200 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-11-22 16:59:14.201 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-11-22 16:59:14.207 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\app\client\alex\product\12.2.0\client_2\bin;F:\app\client\alex\product\12.2.0\client_1\bin;F:\app\alex\product\12.2.0\client_1;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\alex\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Microsoft\Web Platform Installer\;H:\NewTools\jdk-11.0.1_windows-x64_bin\jdk-11.0.1\bin;H:\NewTools\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Git\cmd;C:\Users\alex\.dnx\bin;C:\Users\alex\AppData\Local\Programs\Fiddler;.]
+2018-11-22 16:59:14.346 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-11-22 16:59:14.347 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1753 ms
+2018-11-22 16:59:14.376 [main] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-11-22 16:59:14.380 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-22 16:59:14.381 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-22 16:59:14.381 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+2018-11-22 16:59:14.381 [main] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-22 16:59:14.497 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-11-22 16:59:14.602 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-11-22 16:59:14.645 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-11-22 16:59:14.692 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-11-22 16:59:14.693 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-11-22 16:59:14.823 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-11-22 16:59:14.920 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-11-22 16:59:15.069 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-11-22 16:59:15.441 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-11-22 16:59:15.670 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-22 16:59:15.860 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-11-22 16:59:15.873 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-11-22 16:59:15.886 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-11-22 16:59:16.042 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-11-22 16:59:16.053 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-11-22 16:59:16.070 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-11-22 16:59:16.073 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.57 seconds (JVM running for 5.472)
+2018-11-22 16:59:20.577 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-11-22 16:59:20.577 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-11-22 16:59:20.584 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2018-11-22 17:00:09.942 [http-nio-8080-exec-9] INFO  com.example.demo.controller.AddressListController - 获取降序分页数据

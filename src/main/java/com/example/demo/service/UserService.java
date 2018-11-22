@@ -16,9 +16,8 @@ public class UserService {
         return userMapper.findUserByName(name);
     }
 
-    public User insertUser(User user) {
-        userMapper.insertUser(user);
-        return user;
+    public int insertUser(User user) {
+        return userMapper.insertUser(user);
     }
     public List<User> ListUser(){
         return userMapper.ListUser();
