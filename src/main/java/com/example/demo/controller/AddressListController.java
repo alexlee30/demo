@@ -9,6 +9,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -49,7 +50,7 @@ public class AddressListController {
     @ApiOperation(value="修改用户", notes="修改用户")
     @ApiImplicitParam(name = "user", value = "用户数据模型", required = true, dataType = "User")
     @RequestMapping(value = "/update", method = RequestMethod.POST)
-    public String update(@RequestBody User user) {
+    public String update(@RequestBody @ModelAttribute User user) {
         logger.info("修改用户{}",user.getName());
         int result = userservice.Update(user);
         if (result >= 1) {
@@ -63,7 +64,7 @@ public class AddressListController {
     @ApiOperation(value="新增用户", notes="新增用户")
     @ApiImplicitParam(name = "user", value = "用户数据模型", required = true, dataType = "User")
     @RequestMapping(value = "/insert", method = RequestMethod.POST)
-    public User insert(@RequestBody User user) {
+    public User insert(@RequestBody @ModelAttribute User user) {
         logger.info("新增用户{}",user.getName());
         return userservice.insertUser(user);
     }
@@ -72,7 +73,7 @@ public class AddressListController {
     @ApiImplicitParam(name = "pageSet", value = "分页数据模型", required = true, dataType = "PageSet")
     @RequestMapping(value = "/getPageListDesc", method = RequestMethod.GET)
     @ResponseBody
-    public String getPageListDesc(PageSet pageSet){
+    public String getPageListDesc(@ModelAttribute PageSet pageSet){
         logger.info("获取降序分页数据");
         int total = countAll();
         return userservice.getPageList(pageSet) + "<br>总数:" + total;
@@ -82,7 +83,7 @@ public class AddressListController {
     @ApiImplicitParam(name = "pageSet", value = "分页数据模型", required = true, dataType = "PageSet")
     @RequestMapping(value = "/getPageListAsc", method = RequestMethod.GET)
     @ResponseBody
-    public String getPageListAsc(PageSet pageSet){
+    public String getPageListAsc(@ModelAttribute PageSet pageSet){
         logger.debug("获取分页数据");
         int total = countAll();
         return userservice.getPageListAsc(pageSet) + "<br>总数：" + total;
